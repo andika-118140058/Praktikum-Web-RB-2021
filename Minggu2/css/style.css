@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	height: 100vh;
+}
+
+header {
+	margin-top: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+header img {
+	width: 150px;
+	height: 150px;
+}
+
+header h1 {
+	margin-left: 20px;
+	font-size: 60px;
+}
+
+
+nav {
+	height: 50px;
+	margin-top: 10px;
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav a {
+	background-color: green;
+	border-radius: 10px;
+	padding: 5px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+.body {
+	display: flex;
+	height: auto;
+	width: auto;
+}
+
+.main-content {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-content img {
+	margin-left: 20px;
+	margin-top: 10px;
+	width: auto;
+	height: 221px;
+	margin-bottom: 10px;
+}
+
+.content-berita {
+	margin-top: 10px;
+	flex-direction: column;
+	width: 30%;
+	height: 60vh;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.content-berita a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	text-decoration: none;
+	width: 99%;
+	border: 2px solid black;
+	font-weight: bold;
+}
+
+footer {
+	background-color: blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	flex-direction: row;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+footer p {
+	color: white;
+	margin-left: 10px;
+}
