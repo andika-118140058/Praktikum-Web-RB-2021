@@ -16,7 +16,7 @@ jangan lupa tambahkan hasil screenshoot web di dalam file
 
 ### Tambahkan identitas dasar di sini: 
 
-Nama  :
+Nama  : Helmud Panggabean
 <br>
-NIM   :
+NIM   : 14116115
 
