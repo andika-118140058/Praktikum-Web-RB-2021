@@ -16,7 +16,7 @@ jangan lupa tambahkan hasil screenshoot web di dalam file
 
 ### Tambahkan identitas dasar di sini: 
 
-Nama  :
+Nama  : adam taufiqurrahman
 <br>
-NIM   :
+NIM   : 118140065
 
