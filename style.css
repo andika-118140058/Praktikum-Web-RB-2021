@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(105, 109, 81);
+}
+
+div {
+    background-color: rgb(11, 79, 169);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+header {
+    background-color: rgba(197, 200, 206, 0.734);
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(158, 20, 20, 0.864);
+    border-radius: 10px;
+    margin-top: 4px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 7px;
+}
+
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.page {
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 640px;
+    background-color: #ffffff;
+    height: 800px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.contentPage {
+    width: 395px;
+    height: 799px;
+    background-color: rgb(145, 133, 43, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 650px;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
