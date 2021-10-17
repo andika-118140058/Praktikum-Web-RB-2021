@@ -1,0 +1,73 @@
+.wrap{
+	width: 900px;
+	margin: 10px auto;
+}
+ 
+/*bagian header*/
+.wrap .header{
+	/*height: 50px;*/
+	padding: 2px 10px;
+}
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: #F8485E;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	
+}
+
+.wrap .menu ul li a {
+    display: block;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrap .menu ul li a:hover {
+    background-color:#000000; 
+    display:block;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: #eeeeee;
+	float: left;	
+	width: 75%;
+	height: 100%;
+}
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	background: #00C1D4;
+	float: left;
+	height: 100%;
+	width: 25%;	
+}
+
+.wrap .badan .content ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: medium;
+}
+ 
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+}
