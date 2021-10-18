@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tugas Minggu 3</title>
+		<link rel="stylesheet" type="text/css" href="">
+	</head>
+
+	<body>
+
+		<label for="themeOption">Select theme:</label>
+		<select name="themeOption" id="themeOption" onchange="changeTheme()">
+		  <option value="white">White</option>
+		  <option value="black">Black</option>
+		</select>
+
+		<h1>This is my website</h1>
+
+	 	<label for="weatherOption">Select the weather type today:</label>
+		<select name="weatherOption" id="weatherOption" onchange="changeWeather()">
+		  <option></option>
+		  <option value="sunny">Sunny</option>
+		  <option value="rainy">Rainy</option>
+		</select>
+
+		<p id="weather"></p>
+
+		<label for="factorial">Input Number:</label>
+		<input type="number" id="factorial" name="factorial">
+		<button onclick="getFactorial()">Get Factorial</button>
+		<p id="result"></p>
+
+	  <script src="./javaScript/index.js"></script>
+	</body>
+</html>
