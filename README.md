@@ -16,7 +16,7 @@ jangan lupa tambahkan hasil screenshoot web di dalam file
 
 ### Tambahkan identitas dasar di sini: 
 
-Nama  :
+Nama  :Genja Rizky Novianto
 <br> 
-NIM   :
+NIM   :119140093
 
