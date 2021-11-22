@@ -1,0 +1,50 @@
+body {
+    background-image: url(https://cdn.wallpapersafari.com/63/49/s1ZhlQ.jpg);
+}
+
+h1 {
+    margin-top: 20%;
+}
+
+button{
+    font-family: sans-serif;
+    font-size: 15px;
+    background: #cf4522;
+    color: rgb(255, 218, 170);
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: rgb(224, 64, 64);
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(36, 0, 0);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(255, 175, 122);
+}
+
+.active {
+    background-color: rgb(224, 104, 34);
+}

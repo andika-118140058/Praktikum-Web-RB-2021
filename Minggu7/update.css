@@ -1,0 +1,48 @@
+header {
+    margin-top: 10%;
+}
+
+h1 {
+    margin-top: 15px ;
+    padding: 0.25em 0 0.25em 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(36, 0, 0);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(255, 175, 122);
+}
+
+.active {
+    background-color: rgb(224, 104, 34);
+}
+
+.button {
+    font-family: sans-serif;
+    font-size: 15px;
+    background: #cf4522;
+    color: rgb(255, 218, 170);
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
